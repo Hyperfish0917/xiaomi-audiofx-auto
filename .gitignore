@@ -1,0 +1,35 @@
+# Build outputs and local dependencies
+.build/
+dist/
+__pycache__/
+*.pyc
+
+# Never commit signing material or local credentials
+signing/
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.key
+*.pem
+.env
+.env.*
+
+# Personal backups, phone logs and diagnostic artifacts
+baseline/
+evidence/
+diagnostics/
+private/
+*.log
+*.zip
+*.dex
+MiSound.apk
+audiofx_auto_*.txt
+eq-page-*.txt
+eq_*.txt
+
+# Local editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
